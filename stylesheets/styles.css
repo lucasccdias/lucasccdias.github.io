@@ -1,4 +1,4 @@
-body {
+heabody {
   background-color: #fff;
   padding:50px;
   font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -115,7 +115,7 @@ img {
 }
 
 header {
-  width:270px;
+  width:25%;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
