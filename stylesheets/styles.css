@@ -1,11 +1,13 @@
 body {
   background-color: #fff;
   padding:50px;
-  font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;     /* or 120%, or 1.2rem */
-  line-height: 1.5;
+  font: 16px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#595959;
   font-weight:400;
+}
+
+html {
+  font-size: 120%;   /* increases the whole document’s scale */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -54,10 +56,8 @@ a:hover small {
 }
 
 .wrapper {
-  display: flex;
-  width: 95%;
-  max-width: 1200px;
-  margin: 0 auto;
+  width:860px;
+  margin:0 auto;
 }
 
 .social-icons {
@@ -117,13 +117,10 @@ img {
 }
 
 header {
-  width: 270px;           /* largura fixa */
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  padding: 20px;
-  box-sizing: border-box;
+  width:270px;
+  float:left;
+  position:fixed;
+  -webkit-font-smoothing:subpixel-antialiased;
 }
 
 header ul {
@@ -186,10 +183,9 @@ header ul a strong {
 }
 
 section {
-  margin-left: 290px;     /* header width + small gap */
-  width: calc(100% - 290px);
-  padding: 20px;
-  box-sizing: border-box;
+  width:500px;
+  float:right;
+  padding-bottom:50px;
 }
 
 small {
