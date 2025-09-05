@@ -54,8 +54,10 @@ a:hover small {
 }
 
 .wrapper {
-  width:860px;
-  margin:0 auto;
+  display: flex;
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .social-icons {
@@ -115,12 +117,13 @@ img {
 }
 
 header {
-  width:25%;
-  position:fixed; /* fixo no lado esquerdo */
-  left:0;
-  top:0;
-  bottom:0;
-  -webkit-font-smoothing:subpixel-antialiased;
+  width: 270px;           /* largura fixa */
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 header ul {
@@ -183,9 +186,10 @@ header ul a strong {
 }
 
 section {
-  width:70%;             /* mais largo que antes */
-  margin-left:25%;       /* desloca à direita do header */
-  padding:50px 20px 50px 20px;  /* topo, laterais, baixo */
+  margin-left: 290px;     /* header width + small gap */
+  width: calc(100% - 290px);
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 small {
