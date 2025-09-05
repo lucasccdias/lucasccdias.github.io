@@ -1,13 +1,11 @@
 body {
   background-color: #fff;
   padding:50px;
-  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;     /* or 120%, or 1.2rem */
+  line-height: 1.5;
   color:#595959;
   font-weight:400;
-}
-
-html {
-  font-size: 200%;   /* increases the whole document’s scale */
 }
 
 h1, h2, h3, h4, h5, h6 {
